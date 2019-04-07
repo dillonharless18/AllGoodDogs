@@ -457,24 +457,21 @@ ul {
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
-  .weekdays li, .days li {
-    width: 13.1%;
+  .title-pic {
+    margin-bottom: 3%;
   }
 }
 
 @media screen and (max-width: 420px) {
-  .weekdays li, .days li {
-    width: 12.5%;
+  .title-pic {
+    margin-bottom: 3%;
   }
 
-  .days li .active {
-    padding: 2px;
-  }
 }
 
 @media screen and (max-width: 290px) {
-  .weekdays li, .days li {
-    width: 12.2%;
+  .title-pic {
+    margin-bottom: 3%;
   }
 }
 
@@ -568,9 +565,9 @@ ul {
     width: auto;
     max-height: 240px;
   }
-  /* .title-pic {
-    width:
-  } */
+  .title-pic {
+    margin-bottom: 3%;
+  }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
