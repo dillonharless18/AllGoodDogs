@@ -24,6 +24,10 @@ hr {
   width: 10%;
   margin: 2.5rem auto;
 }
+img {
+  width: 100%;
+  height: auto;
+}
 
 /* Headings */
 .big-heading {
@@ -52,6 +56,10 @@ hr {
   font-size: 2.5rem;
   line-height: 1.5;
   margin: 2rem auto 3rem;
+}
+.title-pic {
+  width:100%;
+  height: auto;
 }
 
 /* Sections */
@@ -442,89 +450,8 @@ ul {
   list-style-type: none;
 }
 
-.month {
-  padding: 8% 25px;
-  width: 100%;
-  background: #018f8a;
-  text-align: center;
-}
 
-.month ul {
-  margin: 0;
-  padding: 0;
-}
 
-.month ul li {
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.month .prev {
-  float: left;
-  padding-top: 10px;
-}
-
-.month .next {
-  float: right;
-  padding-top: 10px;
-}
-
-.weekdays {
-  margin: 0;
-  padding: 10px 0;
-  background-color: #ddd;
-}
-
-.weekdays li {
-  display: inline-block;
-  width: 13.6%;
-  color: #666;
-  text-align: center;
-}
-
-.days {
-  padding: 10px 0;
-  background: #eee;
-  margin: 0;
-}
-
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size: 12px;
-  color: #777;
-}
-
-.days li:hover {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size: 12px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.days li .active {
-  padding: 5px;
-  background: #018f8a;
-  color: white !important
-}
-
-.days li .calendar-event {
-  padding: 5px;
-  background: #ffe26f;
-}
-
-.days li .calendar-event:hover {
-  padding: 5px;
-}
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
@@ -559,7 +486,8 @@ ul {
   }
 
   .title-pic {
-    width: 100%;
+    width: 30%;
+    height: auto;
     border-radius: 10%;
     background-color: #fff;
   }
@@ -638,7 +566,9 @@ ul {
     width: auto;
     max-height: 240px;
   }
-}
+  /* .title-pic {
+    width:
+  } */
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
