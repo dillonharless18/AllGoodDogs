@@ -599,6 +599,10 @@ ul {
     margin-bottom: 3% auto;
     float: none;
   }
+  #contact{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
 
   #scroll-to-top-button {
