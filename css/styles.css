@@ -592,11 +592,13 @@ ul {
 
   #pricing {
     min-height: 837px;
+    align-content: center;
+    text-align: center;
+  }
+  .card {
+    margin-bottom: 3% auto;
   }
 
-  #pricing .carousel-inner {
-    min-height: 426px;
-  }
 
   #scroll-to-top-button {
     bottom: 10px;
