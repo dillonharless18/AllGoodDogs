@@ -608,6 +608,9 @@ ul {
     width: auto;
     max-height: 20%;
   }
+  .jake-pic{
+    width: 100%;
+  }
 
   #pricing {
     min-height: 837px;
