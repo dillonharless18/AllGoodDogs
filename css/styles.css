@@ -264,7 +264,7 @@ img {
 }
 
 .jake-pic {
-  max-width: 50%;
+  width: 50%;
   height: auto;
   margin: 1rem;
   border-radius: 20%;
