@@ -60,6 +60,8 @@ img {
 .title-pic {
   width:100%;
   height: auto;
+  border-radius: 10%;
+
 }
 
 /* Sections */
@@ -485,12 +487,12 @@ ul {
     padding: 2% 25% 3%;
   }
 
-  .title-pic {
+  /* .title-pic {
     width: 30%;
     height: auto;
     border-radius: 10%;
     background-color: #fff;
-  }
+  } */
 
   .toggler-adjust-right {
     margin-right: 10%;
