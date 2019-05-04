@@ -40,7 +40,7 @@ img {
 .section-header {
   font-weight: 900;
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-top: 2rem;
   line-height: 1.5;
 }
@@ -55,7 +55,7 @@ img {
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 1.5;
-  margin: 2rem auto 3rem;
+  margin: 1rem auto 3rem;
 }
 .title-pic {
   width:100%;
@@ -251,7 +251,7 @@ img {
     line-height: 1.5;
 }
 .about-sub-title{
-  margin:2rem auto;
+  margin:1rem auto;
 }
 
 .goal-description {
@@ -264,7 +264,7 @@ img {
 }
 
 .jake-pic {
-  width: 50%;
+  width: 75%;
   height: auto;
   margin: 1rem;
   border-radius: 20%;
@@ -451,6 +451,14 @@ img {
 ul {
   list-style-type: none;
 }
+/* Contact-section */
+.contact-email-ending {
+  font-size: 1rem;
+}
+.contact-info-margin-top{
+  margin-top: 8%;
+}
+
 
 
 
@@ -459,6 +467,9 @@ ul {
 @media screen and (max-width:720px) {
   .title-pic {
     margin-bottom: 3%;
+  }
+  .jake-pic {
+    width: 100%;
   }
 }
 
@@ -514,7 +525,9 @@ ul {
   }
   .card {
     padding:5%;
+    margin: 1% auto;
   }
+
   .card-img{
   }
 
@@ -550,6 +563,9 @@ ul {
 @media only screen and (max-width: 959px) {
   .navbar-toggler {
     margin-right:6px;
+  }
+  .card {
+    margin: 0 auto 1%;
   }
 }
 
@@ -620,12 +636,12 @@ ul {
   .card {
     margin-bottom: 3% auto;
     float: none;
+    margin: 0 auto;
   }
   #contact{
     padding-left: 5%;
     padding-right: 5%;
   }
-
 
   #scroll-to-top-button {
     bottom: 10px;
